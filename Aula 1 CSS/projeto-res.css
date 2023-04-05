@@ -1,0 +1,105 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Oswald', sans-serif;
+
+}
+
+
+#pack {
+    width: 78vh;
+    height: 55vw;
+    background: #5D5D7D;
+    margin-left: 949px;
+    opacity: 0.16;
+    display: inline-block;
+    position:absolute;
+}
+
+
+
+.container {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    margin-top: 24px;
+    margin-left: 1040px;
+    position: absolute;
+   
+  
+}
+
+.menu {
+font-weight: 400;
+font-size: 28px;
+line-height: 41px;
+margin-left: 20px;
+cursor: pointer;
+text-decoration: none; /* tira o sublinhado do link*/
+color: #5D5D7D; 
+
+}
+
+span {
+
+    opacity: 0.4;
+}
+
+#person {
+
+margin-top: 366px;
+margin-left: 818px;
+
+}
+
+#phone {
+margin-top: 215px;
+margin-left: 49px;
+
+}
+
+h1 {  
+    position: absolute;
+    width: 368px;
+    height: 160px;
+    margin-top: 381px;
+    margin-left: 136px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+p {
+    position: absolute;
+    width: 540px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    margin-top: 556px;
+    margin-left: 136px;
+}
+
+button {
+    position: absolute;
+    width: 269px;
+    height: 62px;
+    margin-top: 715px;
+    margin-left: 136px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
