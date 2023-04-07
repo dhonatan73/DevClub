@@ -1,0 +1,105 @@
+<!--
+            Exercicio:
+Nome completo (obrigatório)
+E-mail (obrigatório)
+Senha (obrigatório, mínimo de 8 caracteres)
+Data de nascimento (opcional)
+Gênero (opcional, escolha entre masculino, feminino ou não-binário)
+Além disso, adicione um botão "Enviar" para que o formulário possa ser enviado. 
+Certifique-se de que os campos obrigatórios tenham a validação correta para que o 
+formulário não possa ser enviado se eles estiverem em branco ou se a senha tiver
+ menos de 8 caracteres.
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+
+
+    <body>
+
+        <form method="">
+        <h1> Para se candidatar na vaga é preciso que preencha o furmulário abaixo:</h1>
+
+        <label> Nome Completo:
+            <input type="text" required>
+        </label>
+
+        <br> 
+        <br>
+
+        <label> E-mail:
+            <input type="email" required>
+        </label>
+
+        <br>
+        <br>
+
+        <label> Senha:
+            <input type="password" required minlength="8">
+        </label>
+
+        <br>
+        <br>
+
+        <label> Data de Nascimento:
+            <input type="date">
+        </label>
+
+        <br>
+        <br>
+
+        <p1> Escolha seu Genero: </p1>
+        <br>
+
+        <label for="Masculino">Masculino</label>
+        <input id="Masculino" type="radio" name="tipo">
+
+        <br>
+
+        <label for="Feminino">Feminino</label>
+        <input id="Feminino" type="radio" name="tipo">
+
+        <br>
+
+        <label for="nao-binario">Não-Binário</label>
+        <input id="nao-binario" type="radio" name="tipo">
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar Dados</button>
+
+</form>
+
+
+</body>
+
+</html>
+
+<!-- 
+<label for="genero">Gênero</label>
+      <select id="genero" name="genero">
+        <option value="">Selecione...</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="nao-binario">Não-binário</option>
+      </select>
+      <br>
+
+
+
+
+-->

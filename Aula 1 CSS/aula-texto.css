@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+h1 {
+color: red;
+font-size: bold ;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+text-shadow: 10px 0px 20px #ff0500; /* esfumaçar*/ 
+}
+
+p {
+
+    color: blue;
+    font-size: 20px
+    /* font-weight:  */
+    /* font-family: 'Roboto', sans-serif;/*
+    /* line-height:0 ; /* espaçamento de altura letra*/
+    /* letter-spacing: ; /* espaçamento de largura da letra */
+    /* word-spacing:0 ; /* espaçamento entre letras */
+    /* text-align: justify 0; /* alinhamneto do texto */
+    /* text-transform: uppercase; /* maisculo*/ 
+    /* text-transform: lowercase;  minusculo*/
+     /* text-transform: capitalize;  primeira letra maiuscula */
+     /* text-decoration: underline ; linha em cima ou embaixo */
+}
